@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>HTML Forms</h2>
+    <form action="backend.php">
+        <label for="name">NAME</label>
+        <div>
+            <input type="text" name="myNAME" id="name">
+            <!-- whatever is store in the lable it will store in the id name -->
+        </div>
+        <br>
+        <div>
+            ROLE:<input type="text" name="myROLE">
+        </div>
+        <br>
+        <div>
+            Email:<input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            DATE:<input type="date" name="myDATE">
+        </div>
+        <br>
+        <div>
+            BONUS:<input type="number" name="myBONUS">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myeligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br> <textarea name="mytext" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="car">Car</label>
+            <select name="Mycar" id="car">
+                <option value="Ind" selected>Indica</option>
+                <!-- selected used for showing bydefault selected -->
+                <option value="swf">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>
